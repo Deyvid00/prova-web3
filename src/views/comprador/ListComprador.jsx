@@ -119,13 +119,13 @@ deleteComprador = (id) => {
                                         <Table.HeaderCell >Endereço Comercial</Table.HeaderCell>
                                         <Table.HeaderCell >Endereço Residencial</Table.HeaderCell>
                                         <Table.HeaderCell >Comissao</Table.HeaderCell>
-                                        <Table.HeaderCell >trabaha Home Office</Table.HeaderCell>
+                                        <Table.HeaderCell >homeOffice</Table.HeaderCell>
 
-                                        <Table.HeaderCell >qtd Compras Medias por Mes</Table.HeaderCell>
-                                        <Table.HeaderCell >Contratado Em</Table.HeaderCell>
+                                        <Table.HeaderCell >Compras Medias</Table.HeaderCell>
+                                        <Table.HeaderCell >Contratado</Table.HeaderCell>
 
 
-                                        <Table.HeaderCell textAlign='center' width={2} >Ações</Table.HeaderCell>
+                                        <Table.HeaderCell textAlign='center' width={2.1} >Ações</Table.HeaderCell>
                                     </Table.Row>
                                 </Table.Header>
                           

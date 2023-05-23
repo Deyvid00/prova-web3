@@ -1,8 +1,8 @@
 import axios from "axios";
+import React, { useEffect, useState } from 'react';
 import InputMask from 'react-input-mask';
 import { Link, useLocation } from "react-router-dom";
 import { Button, Container, Divider, Form, Icon } from 'semantic-ui-react';
-import React, { useState, useEffect } from 'react';
 
 import { ENDERECO_API } from '../../views/util/Constantes';
 
@@ -154,7 +154,7 @@ export default function FormComprador() {
               </Form.Group>
 
 			  <Form.Group inline>
-  <label>Trabaha Home Office </label>
+  <label>Home Office </label>
   <Form.Radio
     label='Sim'
     checked={trabahoHomeOffice === true}
