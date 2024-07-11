@@ -103,7 +103,7 @@ function ListMaterial() {
 <Table.Row key={material.id}>
   <Table.Cell>{material.titulo}</Table.Cell>
   <Table.Cell>{material.valor}</Table.Cell>
-  <Table.Cell>{material.responsavel}</Table.Cell>
+  <Table.Cell>{material.resposavel}</Table.Cell>
   <Table.Cell>{material.localizacao}</Table.Cell>
   <Table.Cell>{material.peso}</Table.Cell>
   <Table.Cell>{formatarData(material.dataAquisicao)}</Table.Cell>
